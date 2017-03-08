@@ -21,7 +21,7 @@ app.controller('MainController', ['$scope', function($scope) {
   };
 
   $scope.forecast = {
-    icon: 'img/forecase.jpg',
+    icon: 'img/forecast.jpg',
     title: 'Forecast',
     developer: 'Forecast',
     price: 1.99
