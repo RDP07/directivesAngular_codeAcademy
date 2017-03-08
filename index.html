@@ -17,10 +17,7 @@
     <div class="main" ng-controller="MainController">
       <div class="container">
          <div class="card">
-          <img class="icon" ng-src="{{ move.icon }}">
-          <h2 class="title">{{ move.title }}</h2>
-          <p class="developer">{{ move.developer }}</p>
-          <p class="price">{{ move.price | currency }}</p>
+           <app-info info="move"></app-info>
         </div>
 
         <div class="card">
