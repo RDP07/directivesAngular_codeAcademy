@@ -21,17 +21,11 @@
         </div>
 
         <div class="card">
-          <img class="icon" ng-src="{{ shutterbugg.icon }}">
-          <h2 class="title">{{ shutterbugg.title }}</h2>
-          <p class="developer">{{ shutterbugg.developer }}</p>
-          <p class="price">{{ shutterbugg.price | currency }}</p>
+          <app-info info="shutterbugg"></app-info>
         </div>
 
         <div class="card">
-          <img class="icon" ng-src="{{ gameboard.icon }}">
-          <h2 class="title">{{ gameboard.title }}</h2>
-          <p class="developer">{{ gameboard.developer }}</p>
-          <p class="price">{{ gameboard.price | currency }}</p>
+          <app-info info="gameboard"></app-info> 
         </div>
       </div>
     </div>
