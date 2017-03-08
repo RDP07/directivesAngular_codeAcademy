@@ -19,4 +19,11 @@ app.controller('MainController', ['$scope', function($scope) {
     developer: 'Armando P.',
     price: 1.99
   };
+
+  $scope.forecast = {
+    icon: 'img/forecase.jpg',
+    title: 'Forecast',
+    developer: 'Forecast',
+    price: 1.99
+  }
 }]);
